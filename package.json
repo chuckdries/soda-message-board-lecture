@@ -1,0 +1,28 @@
+{
+  "name": "soda-message-board-lecture",
+  "version": "1.0.0",
+  "description": "soda-message-board-lecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuckdries/soda-message-board-lecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuckdries/soda-message-board-lecture/issues"
+  },
+  "homepage": "https://github.com/chuckdries/soda-message-board-lecture#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "sqlite": "^3.0.0",
+    "twig": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}

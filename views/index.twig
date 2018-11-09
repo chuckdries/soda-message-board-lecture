@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Our hello world</title>
+</head>
+<body>
+  <h1>Hello, SoDA!</h1>
+  {% for message in messages %}
+    <p>{{message.message}}</p>
+  {% endfor %}
+  <form action="/message" method="POST">
+    <input type="text" name="message" placeholder="type a message" />
+    <input type="submit" value="submit" />
+  </form>
+</body>
+</html>
